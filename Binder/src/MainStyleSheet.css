@@ -1,0 +1,58 @@
+/* Author: Taylor Riley (Tursko) */
+
+/*
+ * This is just CSS for the MainView.fxml
+ * More to come
+ */
+ 
+ * {
+	primary : #484A4C;
+	secondary : #E38512;
+	primarytext: #B2B2B2;
+}
+
+.root { 
+	-fx-focus-color: transparent;
+	-fx-background-color: primary;
+}
+
+.button {
+	-fx-text-file: primarytext;
+	-fx-border-color: secondary;
+	-fx-background-color: #E69512;
+}
+
+.button:hover{
+    -fx-border-color: secondary;
+    -fx-background-color: secondary;
+}
+
+.tab-header-background {
+	-fx-opacity: 1;
+	-fx-background-color: primary;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+ /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */
+    
+}
+
+/*Darker black = #303133 */
+/*Lighter black = #484A4C  */
+.tab-pane .tab:selected {
+	-fx-background-color: #E38512;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #303133;
+
+}
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+

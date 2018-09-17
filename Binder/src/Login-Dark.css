@@ -1,0 +1,21 @@
+
+* {
+	primary : #484A4C;
+	secondary : #E38512;
+	primarytext: #B2B2B2;
+}
+.root {
+	-fx-background-color: primary;
+}
+
+.button {
+	-fx-text-file: primarytext;
+	-fx-border-color: secondary;
+	-fx-background-color: #E69512;
+}
+
+.button:hover{
+    -fx-border-color: secondary;
+    -fx-background-color: secondary;
+}
+

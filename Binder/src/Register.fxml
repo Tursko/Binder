@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="531.0" stylesheets="@MainStyleSheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.RegisterController">
+   <children>
+      <TextField fx:id="emailField" layoutX="140.0" layoutY="183.0" prefHeight="31.0" prefWidth="251.0" promptText="Email" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" />
+      <Button fx:id="signUpButton" layoutX="140.0" layoutY="332.0" mnemonicParsing="false" onAction="#handle" text="Sign Up" AnchorPane.leftAnchor="140.0" />
+      <Button fx:id="cancelButton" layoutX="327.0" layoutY="332.0" mnemonicParsing="false" onAction="#handle" text="Cancel" AnchorPane.rightAnchor="138.0" />
+      <VBox alignment="CENTER" layoutX="194.0" layoutY="50.0" prefHeight="121.0" prefWidth="328.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Create An Account">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <PasswordField fx:id="passwordField" layoutX="140.0" layoutY="231.0" prefHeight="31.0" prefWidth="251.0" promptText="Password" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" />
+      <PasswordField fx:id="confirmPasswordField" layoutX="140.0" layoutY="278.0" prefHeight="31.0" prefWidth="251.0" promptText="Confirm Password" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" />
+      <Text fx:id="confirmReq" fill="RED" layoutX="144.0" layoutY="322.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Required" />
+      <Text fx:id="emailReq" fill="RED" layoutX="144.0" layoutY="227.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Required" />
+      <Text fx:id="passReq" fill="RED" layoutX="144.0" layoutY="275.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Required" />
+      <Text fx:id="matchReq" fill="RED" layoutX="233.0" layoutY="322.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Passwords do not match" />
+      <Text fx:id="usernameReq" fill="RED" layoutX="144.0" layoutY="381.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Username Taken" />
+   </children>
+</AnchorPane>

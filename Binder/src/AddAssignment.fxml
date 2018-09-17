@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="481.0" style="-fx-background-color: #303133;" stylesheets="@MainStyleSheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AddAnAssignmentController">
+   <children>
+      <ChoiceBox fx:id="courseBox" layoutX="223.0" layoutY="143.0" prefHeight="34.0" prefWidth="186.0" />
+      <TextField fx:id="titleField" layoutX="223.0" layoutY="216.0" prefHeight="34.0" prefWidth="186.0" />
+      <DatePicker fx:id="dateBox" layoutX="223.0" layoutY="284.0" prefHeight="34.0" prefWidth="186.0" />
+      <Text fill="WHITE" layoutX="72.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Course">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="153.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="107.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Due Date">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="addButton" layoutX="37.0" layoutY="379.0" mnemonicParsing="false" onAction="#handle" prefHeight="34.0" prefWidth="186.0" text="Add Assignment" />
+      <Button fx:id="cancelButton" layoutX="258.0" layoutY="379.0" mnemonicParsing="false" onAction="#handle" prefHeight="34.0" prefWidth="186.0" text="Cancel" />
+      <VBox alignment="CENTER" prefHeight="108.0" prefWidth="481.0" style="-fx-background-color: #484A4C;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Add An Assignment">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <Label fx:id="needDateLabel" layoutX="230.0" layoutY="318.0" opacity="0.0" text="*Required Item" textFill="RED" />
+      <Label fx:id="needCourseLabel" layoutX="224.0" layoutY="177.0" opacity="0.0" text="*Required Item" textFill="RED" />
+      <Label fx:id="needTitleLabel" layoutX="224.0" layoutY="250.0" opacity="0.0" text="*Required Item" textFill="RED" />
+   </children>
+</AnchorPane>
