@@ -1,6 +1,7 @@
 # Binder - The easy to use assignment planner. 
 
 To run this application you need an IDE and JavaFX.
+
 This program was written by @Tursko, @Ed-D1, @ajcohen125, @mccormickd, & @hunterjfox at The University of Texas at San Antonio.
 ## What does it do?
 Binder allows you to keep track of your school assignments, tests and quizzes. Also we have a nice and easy to use Grade Calculator!
