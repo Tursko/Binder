@@ -2,7 +2,7 @@
 
 To run this application you need an IDE and JavaFX.
 
-This program was written by @Tursko, @Ed-D1, @ajcohen125, @mccormickd, & @hunterjfox at The University of Texas at San Antonio.
+This program was originally written by @Tursko, @Ed-D1, @ajcohen125, @mccormickd, & @hunterjfox at The University of Texas at San Antonio.
 
 This project was cloned from a private UTSA repository after completion.
 ## What does it do?
