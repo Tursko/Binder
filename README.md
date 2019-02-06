@@ -46,3 +46,5 @@ After running the program for the first time, you have the choice to Sign Up or 
 * On the Courses Tab, to open the secondary TableView you must click on a a Course then click the button above the Table called Open. This will open any Assignments associated with the Course. 
 * Also the Grade Calculator DOES NOT save your data. It's simply a calculator and once you re-login, no information will be saved.
 
+## Future additions
+I'd like to make this into a web application, maybe even a chrome new tab extension. 
